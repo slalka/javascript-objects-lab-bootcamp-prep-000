@@ -14,5 +14,6 @@ delete p[k]
 return p
 }
 function destructivelyDeleteFromObjectByKey(o,k){
-
+delete o[k]
+return o
 }
